@@ -1,0 +1,101 @@
+/* #region顶部导航条start */
+
+.header {
+    margin: 0 auto;
+    background-color: rgb(77, 74, 74, 0.2);
+    height: 80px;
+}
+.logo {
+    margin-left: 30px;
+    height: 80px;
+}
+.header .login a{
+    line-height: 80px;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #54b3d6;
+}
+.top-right {
+    margin-right: 20px;
+}
+
+/*  #endregion顶部导航条end */
+
+
+/*  #region头部搜索start */
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+.search {
+    border: 1px solid black;
+    height: 30px;
+    margin-right: 10px;
+}
+.button-search {
+    font-size: 20px;
+}
+.button-search:hover {
+    cursor: pointer;
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+}
+/*  #endregion头部搜索end */
+
+/*  #region主体导航区start */
+
+.alls {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.alls .s {
+    height: 250px;
+    width: 400px;
+    margin-top: 20px;
+    background-color: rgba(77, 74, 74, 0.2);
+    color: black;
+    overflow-y: auto;
+}
+.alls .s::-webkit-scrollbar {
+    display: none;
+}
+.alls .s span {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgb(216, 28, 106);
+}
+.alls .s li {
+    width: 118px;
+    margin: 0 7px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+.alls .s li a {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(65, 177, 171);
+}
+/*  #endregion主体导航区end */
+
+.bjimg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    object-fit: cover;
+   
+  }
